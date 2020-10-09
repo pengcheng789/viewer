@@ -6,6 +6,12 @@
 
 - Gotenberg的端口映射在 Docker 宿主机的3010上。
 
+    如在本地环境中运行以下命令（不包括命令提示符`$`）：
+    
+    ```shell
+    $ docker run -dp 3010:3000 --name gotenberg_6 thecodingmachine/gotenberg:6
+    ```
+
 # 使用方式
 
 - `npm install`
